@@ -1,0 +1,147 @@
+@media (max-width: 1075px){
+    .about__dot--1 {
+        top: 150px;
+        left: 100px;
+    }
+    .about__dot--2 {
+        top: 180px;
+        left: 350px;
+    }
+    .about__dot--3 {
+        top: 115px;
+        right: 285px;
+    }
+    .about__dot--4 {
+        bottom: 30px;
+        right: 205px;
+    }
+    .footer__item--company {
+        width: 140px;
+        padding-left: 0;
+    }
+}
+
+
+@media (max-width: 840px){
+    .about__item {
+        padding: 385px 0 70px;
+        background-position: top;
+        margin-bottom: 0;
+    }
+    .about__box {
+        margin: 0 auto;
+    }
+    .about__item:nth-child(2n) {
+        background-position: top;
+    }
+    .about__dot {
+        display: none;
+    }
+    .about__images-box {
+        padding-top: 0;
+    }
+}
+
+
+
+@media (max-width: 700px) {
+    .header__title {
+        font-size: 120px;
+        line-height: 150px;
+    }
+    .header__text {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .menu {
+        position: relative;
+    }
+
+    .menu__btn {
+        display: block;
+        position: absolute;
+        right: 40px;
+        top: 10px;
+    }
+    .menu__list {
+        display: none;
+        padding-top: 60px;
+        text-align: center;
+        border-bottom: 4px solid #ECB84C;
+    }
+    .menu__list-link {
+        display: block;
+        border-top: 4px solid #ECB84C;
+    }
+
+    .menu__list-link:hover {
+        border-bottom: 4px solid transparent;
+    }
+    .slick-prev {
+        left: 20px;
+    }
+    .slick-next {
+        right: 20px;
+    }
+    .footer__item {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 540px) {
+    .body {
+        font-size: 15px;
+        line-height: 24px
+    }
+    .title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .header__top {
+        padding: 10px;
+    }
+
+    .header__top-inner {
+        border: 2px solid #ECB84C;
+    }
+
+    .header__title {
+        font-size: 100px;
+        line-height: 120px;
+    }
+
+    .header__text {
+        display: none;
+    }
+    .reason__statistics {
+        display: block;
+    }
+    .reason__statistics-item {
+        margin-bottom: 35px;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .footer__items {
+        display: block;
+    }
+    .footer__item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 360px) {
+    .about__box {
+        padding: 27px 30px;
+    }
+}
+
+
+@media (min-width: 700px) {
+    .menu__list {
+        display: flex !important;
+    }
+}
